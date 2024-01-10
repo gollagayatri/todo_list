@@ -7,8 +7,8 @@ Thetasks are stored locally using SQLite database.
 SETUP:
 1.Prerequisites:
   Make sure you have the follolwing installed on your system:
-  1:Android studio
-  2:Java Development Kit(JDK)
+      1:Android studio
+      2:Java Development Kit(JDK)
 2:Installation:
       1.clone the repository using the link or download the code
       2.Open the project in Android Studio
