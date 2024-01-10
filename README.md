@@ -15,14 +15,23 @@ SETUP:
       3.Build the project to ensure all dependencies are downloaded
 
 USAGE:
+
    1.Launch the application on a android device by using wifi or code
+   
    2.The main screen displays a list of tasks and "+" symbol to add the new tasks
+   
    3.On clicking that + symbol we can add the task and "set a date" as a remainder to complete the task and then save the task
+   
    4.After saving the task on main screen we can select wether the task is a "NEW" task or "in-progress" task or "completed"task
+   
    5.And on the main screen we can add the description to the task and also can categorize the task.
+   
    6.We can also prioritize the task as MEDIUM,HIGH AND LOW.
+   
    7.To DELETE a task we can swipe to left and to EDIT the task we can swipe right.
+   
 PROJECT STRUCTURE:
+
 MainActivity.java:Handles the main screen with the task list
 
 ToDoAdapter.java:Handles the deleting and editing the tasks
