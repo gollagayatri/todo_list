@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/holo_green_dark</color>
+    <color name="colorPrimaryDark">@android:color/holo_green_dark</color>
+    <color name="colorAccent">@android:color/holo_green_dark</color>
+    <color name="new_button_color">#FF0000</color>
+    <color name="in_progress_button_color">#6AFF00</color>
+    <color name="completed_button_color">#09F4E1</color>
+    <color name="button_selector_color">#FFEB3B</color>
+
+</resources>

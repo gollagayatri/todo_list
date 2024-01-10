@@ -1,0 +1,132 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <CheckBox
+            android:id="@+id/todoCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="this is an sample task inside the application."
+            android:paddingStart="8dp"
+            android:buttonTint="@android:color/holo_blue_dark"/>
+
+
+        <!-- Task Description -->
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/todoCheckBox"
+            android:layout_marginStart="8dp"
+            android:hint="Task Description"
+            android:inputType="textMultiLine"/>
+
+        <EditText
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextDescription"
+            android:layout_marginStart="8dp"
+            android:hint="specify the category like studies,groceries etc.."
+            android:inputType="textMultiLine"/>
+
+        <ToggleButton
+            android:id="@+id/buttonHigh"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="High"
+            android:textOn="High"
+            android:textOff="High"
+            android:layout_below="@id/category"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/button_selector"/>
+
+        <ToggleButton
+            android:id="@+id/buttonMedium"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="Medium"
+            android:textOn="Medium"
+            android:textOff="Medium"
+            android:layout_below="@id/category"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@id/buttonHigh"
+            android:background="@drawable/button_selector"/>
+
+
+        <ToggleButton
+            android:id="@+id/buttonLow"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="Low"
+            android:textOn="Low"
+            android:textOff="Low"
+            android:layout_below="@id/category"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@id/buttonMedium"
+            android:background="@drawable/button_selector"/>
+        <ToggleButton
+            android:id="@+id/buttonNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New"
+            android:layout_below="@id/buttonLow"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textOn="New"
+            android:textOff="New"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/new_button_selector" />
+
+        <ToggleButton
+            android:id="@+id/buttonInProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Progress"
+            android:layout_below="@id/buttonMedium"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textOn="In Progress"
+            android:textOff="In progress"
+            android:layout_toStartOf="@id/buttonNew"
+            android:background="@drawable/in_progress_button_selector" />
+
+        <ToggleButton
+            android:id="@+id/buttonCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed"
+            android:layout_below="@id/buttonHigh"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textOn="Completed"
+            android:textOff="Completed"
+            android:layout_toStartOf="@id/buttonInProgress"
+            android:background="@drawable/completed_button_selector" />
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
