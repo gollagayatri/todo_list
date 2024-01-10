@@ -57,6 +57,7 @@ This project utilizes the SQLLite fir local storage and follows Android Developm
 
 
 ![WhatsApp Image 2024-01-10 at 16 55 13_126affcd](https://github.com/gollagayatri/todo_list/assets/95433356/55c54f19-272a-4ce4-9b92-ee036e1a4743)
+![WhatsApp Image 2024-01-10 at 17 12 53_3763c77b](https://github.com/gollagayatri/todo_list/assets/95433356/309732ee-1e0a-4e3f-90e2-b16121b6c944)
 ![WhatsApp Image 2024-01-10 at 16 59 22_99e7f144](https://github.com/gollagayatri/todo_list/assets/95433356/5b494962-4a75-4f92-888d-ce160b3493a2)
 ![WhatsApp Image 2024-01-10 at 16 59 29_c36325b3](https://github.com/gollagayatri/todo_list/assets/95433356/7b3fb775-49ac-469d-8381-a3a45eb1dae0)
 ![WhatsApp Image 2024-01-10 at 16 59 38_324b334a](https://github.com/gollagayatri/todo_list/assets/95433356/c529b595-34f7-4214-9857-f6865351e832)
